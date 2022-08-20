@@ -75,7 +75,24 @@
                                     </div>
                                 </div>
 
+                                <div class="text-center mt-4">
+                                    <h5>Login using this credential</h5>
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <p>Admin: admin</p>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <p>Password: pass2022</p>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <p>User: user</p>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <p>Password: pass2022</p>
+                                        </div>
+                                    </div>
 
+                                </div>
 
                             </div>
                         </form>
