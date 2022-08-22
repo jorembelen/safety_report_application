@@ -93,8 +93,8 @@ trait IncidentTraits {
         }
 
         $incident = $incidents->create($data);
-        Mail::to($email)->send(new IncidentReportMail($incident, $greetings));
-        Mail::to($projectEmail)->send(new IncidentReportMail($incident, $greetings));
+        // Mail::to($email)->send(new IncidentReportMail($incident, $greetings));
+        // Mail::to($projectEmail)->send(new IncidentReportMail($incident, $greetings));
     }
 
     public function editIncident($data)
@@ -268,8 +268,8 @@ trait IncidentTraits {
         }
 
 
-        Mail::to($email)->send(new InvestigationReportMail($report, $greetings));
-        Mail::to($projectEmail)->send(new InvestigationReportMail($report, $greetings));
+        // Mail::to($email)->send(new InvestigationReportMail($report, $greetings));
+        // Mail::to($projectEmail)->send(new InvestigationReportMail($report, $greetings));
 
     }
 
